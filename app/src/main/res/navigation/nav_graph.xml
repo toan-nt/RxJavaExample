@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_retrofit">
+
+    <fragment
+        android:id="@+id/creating_create"
+        android:name="com.toantmt.rxjavaexample.creating.CreateObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_create_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/creating_defer"
+        android:name="com.toantmt.rxjavaexample.creating.DeferObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_create_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/creating_empty_never_throw"
+        android:name="com.toantmt.rxjavaexample.creating.EmptyNeverThrowObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_empty_never_throw_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/creating_from"
+        android:name="com.toantmt.rxjavaexample.creating.FromObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_from_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/creating_range"
+        android:name="com.toantmt.rxjavaexample.creating.RangeObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_range_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/creating_interval"
+        android:name="com.toantmt.rxjavaexample.creating.IntervalObservableFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_interval_observable">
+    </fragment>
+
+    <fragment
+        android:id="@+id/conditionals_all"
+        android:name="com.toantmt.rxjavaexample.conditonals.AllConditionalFragment"
+        android:label="@string/rx_creating"
+        tools:layout="@layout/fragment_all_conditionals">
+    </fragment>
+
+    <fragment
+        android:id="@+id/filtering_menu"
+        android:name="com.toantmt.rxjavaexample.filtering.FilteringObservableFragment"
+        tools:layout="@layout/fragment_filtering_observables" />
+
+    <fragment
+        android:id="@+id/menu_combine"
+        android:name="com.toantmt.rxjavaexample.combine.CombineObservableFragment"
+        tools:layout="@layout/fragment_combine_observables" />
+
+    <fragment
+        android:id="@+id/menu_subject"
+        android:name="com.toantmt.rxjavaexample.subject.SubjectFragment"
+        tools:layout="@layout/fragment_combine_observables" />
+
+    <fragment
+        android:id="@+id/menu_auth_rxbinding"
+        android:name="com.toantmt.rxjavaexample.auth.rxbinding.LoginRxBindingFragment"
+        tools:layout="@layout/fragment_rx_binding_auth" />
+
+    <fragment
+        android:id="@+id/menu_auth_databinding"
+        android:name="com.toantmt.rxjavaexample.auth.databinding.LoginDataBindingFragment"
+        tools:layout="@layout/fragment_rx_binding_auth" />
+
+    <fragment
+        android:id="@+id/menu_retrofit"
+        android:name="com.toantmt.rxjavaexample.product.ProductItemsFragment"
+        tools:layout="@layout/fragment_rx_binding_auth" />
+
+    <fragment
+        android:id="@+id/menu_zip_merge"
+        android:name="com.toantmt.rxjavaexample.compare.ZipMergeFragment"
+        tools:layout="@layout/fragment_rx_binding_auth" />
+</navigation>

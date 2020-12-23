@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/rx_conditional_all"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@id/txtLabel"
+        app:layout_constraintStart_toStartOf="@id/txtLabel"
+        app:layout_constraintTop_toBottomOf="@id/txtLabel" />
+
+
+    <Button
+        android:id="@+id/btnAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_async"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnMoreAsync"
+        app:layout_constraintTop_toBottomOf="@id/txtResult" />
+
+    <Button
+        android:id="@+id/btnMoreAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_more_async"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnAsync"
+        app:layout_constraintTop_toBottomOf="@id/txtResult" />
+
+
+    <Button
+        android:id="@+id/btnBehaviorSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_behaviorSubject"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnMoreAsync"
+        app:layout_constraintTop_toBottomOf="@id/btnAsync" />
+
+    <Button
+        android:id="@+id/btnMoreBehavior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_more_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnAsync"
+        app:layout_constraintTop_toBottomOf="@id/btnAsync" />
+
+    <Button
+        android:id="@+id/btnPublishSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_plushlish_subject"
+        app:layout_constraintEnd_toEndOf="@id/txtLabel"
+        app:layout_constraintStart_toStartOf="@id/txtLabel"
+        app:layout_constraintTop_toBottomOf="@id/btnBehaviorSubject" />
+
+    <Button
+        android:id="@+id/btnReplaySubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_replay_subject"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnMoreReplaySubject"
+        app:layout_constraintTop_toBottomOf="@id/btnPublishSubject" />
+
+    <Button
+        android:id="@+id/btnMoreReplaySubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_more_replay"
+        app:layout_constraintEnd_toStartOf="@id/btnMoreReplayEvent"
+        app:layout_constraintStart_toEndOf="@id/btnReplaySubject"
+        app:layout_constraintTop_toBottomOf="@id/btnPublishSubject" />
+
+    <Button
+        android:id="@+id/btnMoreReplayEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_more_event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnMoreReplaySubject"
+        app:layout_constraintTop_toBottomOf="@id/btnPublishSubject" />
+
+    <Button
+        android:id="@+id/btnUnicastSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_unicast_subject"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnMoreUnicastSubject"
+        app:layout_constraintTop_toBottomOf="@id/btnReplaySubject" />
+
+    <Button
+        android:id="@+id/btnMoreUnicastSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rx_more_unicast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnUnicastSubject"
+        app:layout_constraintTop_toBottomOf="@id/btnReplaySubject" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

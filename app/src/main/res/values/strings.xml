@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">RxJavaExample</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">1 will provide you with optimized sound, brightness, ,  and volume by analyzing your viewing environment,  and volume by analyzing your viewing environment and volume by analyzing your viewing environment and the current content 2.</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="rx_creating">Creating Observables</string>
+    <string name="rx_create">Create</string>
+    <string name="rx_creating_create">Create an Observable from scratch by means of a function</string>
+    <string name="rx_creating_defer">do not create the Observable until the observer subscribes, and create a fresh Observable for each observer</string>
+    <string name="rx_defer">Defer</string>
+    <string name="rx_range">Range</string>
+    <string name="rx_creating_range">Generates a sequence of values to each individual consumer. The range() method generates Integers, the rangeLong() generates Longs.</string>
+    <string name="rx_interval">Interval</string>
+    <string name="rx_creating_empty_never_throw">create Observables that have very precise and limited behavior</string>
+    <string name="rx_empty_never_throw">Empty Never Throw</string>
+    <string name="rx_creating_from">convert some other object or data structure into an Observable</string>
+    <string name="rx_from">From</string>
+    <string name="rx_conditional_boolean_operators">Conditinal and Boolean Operators</string>
+    <string name="rx_conditional_all">determine whether all items emitted by an Observable meet some criteria</string>
+    <string name="rx_all">All</string>
+    <string name="rx_takeWhile">TakeWhile</string>
+    <string name="rx_takeUtil">takeUtil</string>
+    <string name="rx_skipWhile">skipWhile</string>
+    <string name="rx_skipUtil">skipUtil</string>
+    <string name="rx_sequenceEqual">sequenceEqual</string>
+    <string name="rx_defaultIfEmpty">default If Empty</string>
+    <string name="rx_contains">Contains</string>
+    <string name="rx_amb">Amb</string>
+    <string name="rx_conditional_amb">given two or more source Observables, emit all of the items from only the first of these Observables to emit an item</string>
+    <string name="rx_conditional_contains">determine whether an Observable emits a particular item or not</string>
+    <string name="rx_conditional_defaultifempty">emit items from the source Observable, or a default item if the source Observable emits nothing</string>
+    <string name="rx_conditional_sequenceequal">determine whether two Observables emit the same sequence of items</string>
+    <string name="rx_conditional_skip_until">discard items emitted by an Observable until a second Observable emits an item</string>
+    <string name="rx_conditional_skip_while">" discard items emitted by an Observable until a specified condition becomes false"</string>
+    <string name="rx_conditional_take_until">discard items emitted by an Observable after a second Observable emits an item or terminates</string>
+    <string name="rx_conditional_take_while">discard items emitted by an Observable after a specified condition becomes false</string>
+    <string name="rx_filtering_observables">Filtering Observable</string>
+    <string name="rx_combine_observables">Combine</string>
+    <string name="rx_subject">Subject</string>
+    <string name="rx_async">AsyncSubject</string>
+    <string name="rx_behaviorSubject">BehaviorSubject</string>
+    <string name="rx_plushlish_subject">PublishSubject</string>
+    <string name="rx_replay_subject">ReplaySubject</string>
+    <string name="rx_more_async">More Subscrible Async</string>
+    <string name="rx_unicast_subject">UnicastSubject</string>
+    <string name="rx_more_unicast">more unicast</string>
+    <string name="rx_more_replay">More replay</string>
+    <string name="rx_more_event">More Event</string>
+    <string name="rx_more_behavior">More behavior</string>
+    <string name="rx_auth">Auth</string>
+    <string name="rx_auth_rx">Login -  Rx</string>
+    <string name="rx_auth_databinding">Login-Databinding</string>
+    <string name="rx_retrofit">Retrofit</string>
+    <string name="rx_zip_merge">Zip Merge</string>
+
+    <string-array name="rx_todos">
+        <item>Todo 1</item>
+        <item>Todo 2</item>
+        <item>Todo 3</item>
+        <item>Todo 4</item>
+        <item>Todo 5</item>
+        <item>Todo 6</item>
+        <item>Todo 7</item>
+        <item>Todo 8</item>
+        <item>Todo 9</item>
+        <item>Todo 10</item>
+        <item>Todo 11</item>
+        <item>Todo 12</item>
+    </string-array>
+
+    <integer-array name="rx_number">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </integer-array>
+
+    <string-array name="filtering_observable">
+        <item>Debounce</item>
+        <item>Distinct</item>
+        <item>ElementAt</item>
+        <item>Filter</item>
+        <item>First</item>
+        <item>IgnoreElements</item>
+        <item>Last</item>
+        <item>Sample</item>
+        <item>Skip</item>
+        <item>SkipLast</item>
+        <item>Take</item>
+        <item>TakeLast</item>
+    </string-array>
+
+</resources>

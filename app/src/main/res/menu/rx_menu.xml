@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/creating"
+        android:title="@string/rx_creating">
+
+        <menu>
+            <item android:id="@+id/creating_create" android:title="@string/rx_create" />
+
+            <item android:id="@+id/creating_defer" android:title="@string/rx_defer" />
+
+            <item android:id="@+id/creating_empty_never_throw" android:title="@string/rx_empty_never_throw" />
+
+            <item android:id="@+id/creating_from" android:title="@string/rx_from" />
+
+            <item android:id="@+id/creating_range" android:title="@string/rx_range" />
+
+            <item android:id="@+id/creating_interval" android:title="@string/rx_interval" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/conditional_boolean_operators"
+        android:title="@string/rx_conditional_boolean_operators">
+
+        <menu>
+            <item android:id="@+id/conditionals_all" android:title="@string/rx_all"/>
+            <item android:id="@+id/conditionals_amb" android:title="@string/rx_amb"/>
+            <item android:id="@+id/conditionals_contains" android:title="@string/rx_contains"/>
+            <item android:id="@+id/conditionals_defaultIfEmpty" android:title="@string/rx_defaultIfEmpty"/>
+            <item android:id="@+id/conditionals_sequenceEqual" android:title="@string/rx_sequenceEqual"/>
+            <item android:id="@+id/conditionals_skipUtil" android:title="@string/rx_skipUtil"/>
+            <item android:id="@+id/conditionals_skipWhile" android:title="@string/rx_skipWhile"/>
+            <item android:id="@+id/conditionals_takeUtil" android:title="@string/rx_takeUtil"/>
+            <item android:id="@+id/conditionals_takeWhile" android:title="@string/rx_takeWhile"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/filtering_menu"
+        android:title="@string/rx_filtering_observables" />
+
+    <item android:id="@+id/menu_combine"
+        android:title="@string/rx_combine_observables" />
+
+    <item android:id="@+id/menu_subject"
+        android:title="@string/rx_subject" />
+
+    <item android:id="@+id/menu_auth"
+        android:title="@string/rx_auth" >
+        <menu>
+            <item android:id="@+id/menu_auth_rxbinding" android:title="@string/rx_auth_rx"/>
+            <item android:id="@+id/menu_auth_databinding" android:title="@string/rx_auth_databinding"/>
+            <item android:id="@+id/menu_retrofit" android:title="@string/rx_retrofit"/>
+            <item android:id="@+id/menu_zip_merge" android:title="@string/rx_zip_merge"/>
+        </menu>
+    </item>
+</menu>
